@@ -1,11 +1,64 @@
 body {
-    background-color: red;
+    background: rgb(143, 9, 67);
+    background: radial-gradient(circle, rgb(218, 158, 183) 0%, rgb(99, 155, 219) 100%);
 }
 
-h2 {
-    background-color: pink;
+.Top {
+    width: auto;
+    background: rgb(7, 132, 116);
+    background: radial-gradient(circle, rgb(146, 100, 166) 0%, rgb(51, 137, 183) 100%);
+    padding: 10px;
+    margin: 2px;
+    
+}
+.links {
+    text-align: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
-h3 {
-    background-color: blue;
+h1 {
+    font-style: italic;
+}
+
+nav {
+    font-size: x-large;
+}
+
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+img {
+    max-width: 100%;
+    max-height:100%;
+}
+
+.text {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20px; 
+    font-style: italic;
+}
+
+.bottom {
+    width: auto;
+    background: rgb(7, 132, 116);
+    background: radial-gradient(circle, rgb(146, 100, 166) 0%, rgb(51, 137, 183) 100%);
+    padding: 25px;
+    margin: 2px;
+    margin-top: 20px;   
+}
+    
+h4 {
+    font-size: x-large;
+    font-style: italic;
+}
+
+.life {
+    padding-top: 5ic;
+
 }
