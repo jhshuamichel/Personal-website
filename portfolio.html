@@ -6,37 +6,75 @@
     <title>Document</title>
     <script src="javascript.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <!-- I did alot of internal style instead of a external style to keep things a bit organized.
+    The back and forth -->
     <style>
-        h3{
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h4 {
             font-size: x-large;
+            text-align: center;
+            margin-top: 10px;
         }
-        img {
-            float: auto;
-            border: 1px solid black;
-            margin: 0px 0px 15px 20px;
+
+        nav {
+            background-color: rgb(136, 200, 199);
+            padding: 1px;
+            text-align: center;
         }
+
+        .links3 {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
         .zoo {
-            background-color: white;
-            padding: 50px;
-            margin: 0px 0px 20px 20px;
+            background-color: rgb(136, 200, 199);
+            padding: 20px;
+            margin: 20px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+            align-items: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid black;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        p {
+            font-style: italic;
         }
     </style>
-    <h4>Projects that will go far...</h4>
 </head>
 <body>
+    <h4>Projects that will go far...</h4>
+
     <div>
         <nav>
             <div class="links3">
-            <form action="index.html" target="_blank" method="get">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-        </form>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contactinfo.html">Contact</a>
+            </div>
         </nav>
     </div>
+
     <div class="zoo">
-        <p><img src="Part 1.png" width="300" height="200">
-            In this project we had to create a quick little 101 info about these certain animals.
+        <img src="Part 1.png" alt="Zoo Image">
+        <p>
+            In this project, we had to create a quick little 101 info about these certain animals.
             <br>
             The Wild Animal Mini-Zoo recently hired many new zookeeper interns who will work at the 
             zoo for the next six months. 
@@ -44,6 +82,10 @@
             They have contracted your team to build a page that will make
             it easier for the new interns to identify each animal and understand their needs and behaviors.
         </p>
+    </div>
+
+    <div class="zoo">
+        <p>More Projects soon</p>
     </div>
 </body>
 </html>
