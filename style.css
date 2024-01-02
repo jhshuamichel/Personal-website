@@ -1,3 +1,45 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    header {
+        font-size: 1.2em;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header {
+        text-align: center;
+    }
+
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 body {
     background: rgb(143, 9, 67);
     background: radial-gradient(circle, rgb(218, 158, 183) 0%, rgb(99, 155, 219) 100%);
@@ -61,4 +103,12 @@ h4 {
 .life {
     padding-top: 5ic;
 
+}
+
+.links3 {
+    margin: 10px 0px 30px 5px
+}
+
+p:hover {
+    color: rgb(200, 13, 144);
 }
